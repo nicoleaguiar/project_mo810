@@ -5,13 +5,13 @@
 ### Dataset
 
 First open a terminal and type:
-`wget snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Books_5.json.gz`
+```wget snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Books_5.json.gz```
 
 Then, it's time to prepare the data.
 
 ### Prepare data
 
-`python3 prepare_data --folder=name_folder --data=name_datafile --size=size_data --train=file_train --val=file_val --test_file=file_test --rtrainval=train_val_value --rtrain=train_value`
+```python3 prepare_data --folder=name_folder --data=name_datafile --size=size_data --train=file_train --val=file_val --test_file=file_test --rtrainval=train_val_value --rtrain=train_value```
 
 in which: 
 -name_folder is the name of the folder that the data is;
