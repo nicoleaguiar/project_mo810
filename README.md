@@ -11,7 +11,7 @@ Then, it's time to prepare the data.
 
 ### Prepare data
 
-```python3 prepare_data --folder=name_folder --data=name_datafile --size=size_data --train=file_train --val=file_val --test_file=file_test --rtrainval=train_val_value --rtrain=train_value```
+```python3 prepare\_data.py --folder=name\_folder --data=name\_datafile --size=size\_data --train=file\_train --val=file\_val --test\_file=file\_test --rtrainval=train\_val\_value --rtrain=train_value```
 
 in which: 
 - name_folder is the name of the folder that the data is;
@@ -23,6 +23,29 @@ in which:
 - train\_val_value is the ratio of the training+validation set size to the total, we used 0.8;
 - train_value is the ratio of the training set size to the training+validation, we used 0.9.
 
+### Create corpus
+
+```python3 create\_corpus.py --folder=name\_folder --data=name\_datafile --corpus=name_corpusfile```
+
+- name_folder is the name of the folder that the data is;
+- name_datafile is the name of the data file;
+- name_corpusfile is the name of the corpus file.
+
+### CNN-LSTM
+
+The following code will generate the model.
+
+```python3 cnn-lstm.py```
+
+### Train and test
+
+Now, to train and test the model, just execute the following steps.
+
+```python3 train-model-gen.py```
+
+&
+
+```python3 test-model.py```
 
 
 
