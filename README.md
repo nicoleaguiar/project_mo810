@@ -5,7 +5,7 @@
 ### Dataset
 
 First open a terminal and type:
-```wget snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Books_5.json.gz```
+```wget snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews\_Books_5.json.gz```
 
 Then, it's time to prepare the data.
 
@@ -35,17 +35,17 @@ in which:
 
 The following code will generate the model.
 
-```python3 cnn-lstm.py```
+```python3 cnn\_lstm.py```
 
 ### Train and test
 
 Now, to train and test the model, just execute the following steps.
 
-```python3 train-model-gen.py```
+```python3 train\_model\_gen.py```
 
 &
 
-```python3 test-model.py```
+```python3 test\_model.py```
 
 
 
