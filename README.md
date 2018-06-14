@@ -5,13 +5,13 @@
 ### Dataset
 
 First open a terminal and type:
-```wget snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews\_Books\_5.json.gz```
+```wget snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Books_5.json.gz```
 
 Then, it's time to prepare the data.
 
 ### Prepare data
 
-```python3 prepare\_data.py --folder=name\_folder --data=name\_datafile --size=size\_data --train=file\_train --val=file\_val --test\_file=file\_test --rtrainval=train\_val\_value --rtrain=train\_value```
+```python3 prepare_data.py --folder=name_folder --data=name_datafile --size=size_data --train=file_train --val=file_val --test_file=file_test --rtrainval=train_val_value --rtrain=train_value```
 
 in which: 
 - name\_folder is the name of the folder that the data is;
@@ -25,7 +25,7 @@ in which:
 
 ### Create corpus
 
-```python3 create\_corpus.py --folder=name\_folder --data=name\_datafile --corpus=name\_corpusfile```
+```python3 create_corpus.py --folder=name_folder --data=name_datafile --corpus=name_corpusfile```
 
 - name\_folder is the name of the folder that the data is;
 - name\_datafile is the name of the data file;
@@ -37,21 +37,21 @@ The following code will generate the model.
 
 To use CuDNNLSTM, execute:
 
-```python3 cnn\_lstm\_cudnn.py```
+```python3 cnn_lstm_cudnn.py```
 
 If you don't want to use it, just execute:
 
-```python3 cnn\_lstm.py```
+```python3 cnn_lstm.py```
 
 ### Train and test
 
 Now, to train and test the model, just execute the following steps.
 
-```python3 train\_model\_gen.py```
+```python3 train_model_gen.py```
 
 &
 
-```python3 test\_model.py```
+```python3 test_model.py```
 
 
 
