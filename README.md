@@ -35,6 +35,12 @@ in which:
 
 The following code will generate the model.
 
+To use CuDNNLSTM, execute:
+
+```python3 cnn\_lstm\_cudnn.py```
+
+If you don't want to use it, just execute:
+
 ```python3 cnn\_lstm.py```
 
 ### Train and test
