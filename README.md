@@ -5,7 +5,7 @@
 ### Dataset
 
 First open a terminal and type:
-```wget snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews\_Books\_5.json.gz```
+```wget snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Books\_5.json.gz```
 
 Then, it's time to prepare the data.
 
